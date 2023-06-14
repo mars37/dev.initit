@@ -1,0 +1,15 @@
+.board {
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 60px;
+    height: 60px;
+}
+.white {
+    background-color: #edb;
+}
+.black {
+    background-color: #b86;
+}
