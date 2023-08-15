@@ -8,8 +8,8 @@ require_once('figures/knight.php');
 require_once('figures/pawn.php');
 
 abstract class Figure {
-    private GameState $game_state;
-    private int $position_index;
+    protected GameState $game_state;
+    protected int $position_index;
 
     public function __construct(GameState $game_state, int $position_index) {
         $this->game_state = $game_state;
